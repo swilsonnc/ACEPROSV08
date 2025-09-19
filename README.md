@@ -228,6 +228,7 @@ This project is based on excellent work from:
 
 - **[ACEResearch](https://github.com/printers-for-people/ACEResearch.git)** - Original ACE Pro research
 - **[DuckACE](https://github.com/utkabobr/DuckACE.git)** - Base driver implementation
+- **[BunyAce](https://github.com/BlackFrogKok/BunnyACE)** - Base driver fork
 
 ## 📄 License
 
