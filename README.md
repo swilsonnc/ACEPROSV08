@@ -55,10 +55,10 @@ git clone https://github.com/swilsonnc/ACEPROK1Max.git
 ### 2. Create Symbolic Links
 ```bash
 # Link the driver to Klipper extras
-ln -sf ~/ACEPROK1Max/extras/ace.py ~/klipper/klippy/extras/ace.py
+ln -sf ~/ACEPROK1Max/extras/ace.py /usr/share/klipper/klippy/extras/ace.py
 
-# Link the configuration file
-ln -sf ~/ACEPROK1Max/ace.cfg ~/printer_data/config/ace.cfg
+# Copy the configuration file
+cp ~/ACEPROK1Max/ace.cfg /usr/data/printer_data/config/ace.cfg
 ```
 
 ### 3. Update Python Dependencies
