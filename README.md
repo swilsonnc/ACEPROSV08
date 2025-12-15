@@ -76,6 +76,16 @@ Add to your `printer.cfg`:
 [include ace.cfg]
 ```
 
+### 5. Update Moonraker Configuration
+Add to the bottom of your 'moonraker.conf':
+'''ini
+[update_manager ACEPROK1Max]
+type: git_repo
+path: /root/ACEPROK1Max
+origin: https://github.com/swilsonnc/ACEPROK1Max
+managed_services: klipper
+'''
+
 ### Pin Configuration
 ![Connector Pinout](/img/connector.png)
 
