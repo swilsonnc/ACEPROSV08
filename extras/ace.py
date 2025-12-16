@@ -651,7 +651,8 @@ class BunnyAce:
             self.endless_spool_runout_detected = False
         self._park_in_progress = True
         self.gcode.run_script_from_command('_ACE_PRE_TOOLCHANGE FROM=' + str(was) + ' TO=' + str(tool))
-
+        self.gcode.run_script_from_command('CUT_TIP')
+        
         logging.info('ACE: Toolchange ' + str(was) + ' => ' + str(tool))
         if was != -1:
             self._disable_feed_assist(was)
