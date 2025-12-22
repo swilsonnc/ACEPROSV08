@@ -66,9 +66,18 @@ pip3 install pyserial==3.5
 ```
 
 ### 4. Update Printer Configuration
-Add to your `printer.cfg`:
+Add near the top of your `printer.cfg`:
 ```ini
 [include ace.cfg]
+```
+Add near the bottom of your `printer.cfg` to add the Ace Chamber temp to your Temperatures panel:
+```ini
+[temperature_ace]
+
+[temperature_sensor ace_chamber]
+sensor_type: temperature_ace
+min_temp: 0
+max_temp: 70
 ```
 
 ### 5. Update Moonraker Configuration
