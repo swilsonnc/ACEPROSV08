@@ -40,8 +40,8 @@ This project is based on excellent work from:
 ### Required Components
 - **Anycubic Color Engine Pro** multi-material unit
 - **Filament Sensors**: 
-  - Extruder sensor (at splitter exit)
-  - Toolhead sensor (before hotend)
+  - Extruder sensor (at entrance of extruder exit)
+  - Toolhead sensor (before hotend at cutter)
 - **Hotend**: Compatible with filament cutting (recommended)
 
 ### Recommended Hardware
